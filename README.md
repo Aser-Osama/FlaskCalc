@@ -1,8 +1,8 @@
-# Flask_Calc
+# FlaskCalc
 A simple calculator made using Python and the Flask framework.
 ![MainInterface](image.png)
 
-## Table of Contents?
+## Table of Contents
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Demonstration](#Demonstration)
