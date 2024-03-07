@@ -3,12 +3,12 @@ A simple calculator made using Python and the Flask framework.
 ![MainInterface](image.png)
 
 ## Table of Contents?
-- [Installation?](#Installation)
+- [Installation](#Installation)
 - [Usage](#Usage)
 - [Demonstration](#Demonstration)
 
 ## Prerequisites
-- Python, 3.0.2.
+- Python, 3.12.2.
 - Windows, Linux, or MacOS.
 
 ## Installation
