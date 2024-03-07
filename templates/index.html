@@ -1,24 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask Calculator</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block body %}
+<div class="container">
     <h1>Simple Calculator</h1>
-    <h3> {{ error_msg }} </h3>
-    <form action="/" method="post">
-        <input type="text" name="number_1" placeholder="First number." type="number">
-        <input type="text" name="number_2" placeholder="Second number." type="number">
-        <p>
-            <input type="radio" name="operation" id="option1" value="a"> Add <br>
-            <input type="radio" name="operation" id="option2" value="s"> Subtract <br>
-            <input type="radio" name="operation" id="option3" value="m"> Multiply <br>
-            <input type="radio" name="operation" id="option3" value="d"> Divide <br>
-        </p>
-        <button type="submit">Calculate</button>
-    </form>
-    <p>Result: {{ result }}</p>
-</body>
-</html>
+    <div class="form-container">
+        <h3 class="error">{{ error_msg }}</h3>
+        <form action="/" method="post" class="calculator-form">
+            <div class="input-group">
+                <input type="number" name="number_1" placeholder="First number.">
+                <input type="number" name="number_2" placeholder="Second number.">
+            </div>
+            <div class="operations">
+                <label class="radio-option">
+                    <input type="radio" name="operation" value="a"> Add
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="operation" value="s"> Subtract
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="operation" value="m"> Multiply
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="operation" value="d"> Divide
+                </label>
+            </div>
+            <button type="submit">Calculate</button>
+        </form>
+    </div>
+    <p class="result">Result: {{ result }}</p>
+</div>
+{% endblock %}
