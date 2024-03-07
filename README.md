@@ -7,9 +7,8 @@ A simple calculator made using Python and the Flask framework.
 - [Demonstration](#Demonstration)
 
 ## Prerequisites
-- Flask, 3.12.2+
-- Python, 3.0.2+
-- Werkzeug, 3.0.1+
+- Python, 3.0.2.
+- Windows, Linux, or MacOS.
 
 ## Installation
 1. Clone the repository:
@@ -17,13 +16,24 @@ A simple calculator made using Python and the Flask framework.
 ```
 git clone https://github.com/Aser-Osama/FlaskCalc.git
 ```
-2. Go to directory
+2. Go to directory:
 ```
 cd FlaskCalc
 ```
-3. Run the program:
+3. Install the dependencies:
+```
+pip install -r requirements.txt
+```
+
+## Usage
+Starting the application:
 ```
 flask --app app run 
 ```
 
-##
+## Demonstration
+Main interface:
+![MainInterface](image.png)
+
+Video Demonstration:
+[Video Link](https://youtu.be/-JERhsHXrrc)

@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request
 
 
 app = Flask(__name__)
@@ -37,4 +37,4 @@ def calculate(name=None):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
