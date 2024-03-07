@@ -2,23 +2,28 @@
 A simple calculator made using Python and the Flask framework.
 
 ## Table of Contents?
-- [How to use?](#Usage)
- 
+- [Installation?](#Installation)
+- [Usage](#Usage)
+- [Demonstration](#Demonstration)
+
 ## Prerequisites
 - Flask, 3.12.2+
-- Python, 3.0.2
-- Werkzeug, 3.0.1
+- Python, 3.0.2+
+- Werkzeug, 3.0.1+
 
-## Usage
+## Installation
 1. Clone the repository:
 
 ```
 git clone https://github.com/Aser-Osama/FlaskCalc.git
 ```
+2. Go to directory
 ```
 cd FlaskCalc
 ```
-1. Run the program:
+3. Run the program:
 ```
-flask --app app run --debug
+flask --app app run 
 ```
+
+##
