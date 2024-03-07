@@ -2,7 +2,7 @@
 A simple calculator made using Python and the Flask framework.
 
 ## Table of Contents?
-- [Installation?](#Installation)
+- [Installation](#Installation)
 - [Usage](#Usage)
 - [Demonstration](#Demonstration)
 
@@ -32,8 +32,8 @@ flask --app app run
 ```
 
 ## Demonstration
-Main interface:
+### Main interface:
 ![MainInterface](image.png)
 
-Video Demonstration:
+### Video Demonstration:
 [Video Link](https://youtu.be/-JERhsHXrrc)
