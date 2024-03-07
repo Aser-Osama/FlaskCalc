@@ -3,6 +3,7 @@ A simple calculator made using Python and the Flask framework.
 ![MainInterface](image-1.png)
 
 ## Table of Contents
+- [Prerequisites](#Prerequisites)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Demonstration](#Demonstration)
