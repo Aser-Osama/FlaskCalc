@@ -1,5 +1,6 @@
 # Flask_Calc
 A simple calculator made using Python and the Flask framework.
+![MainInterface](image.png)
 
 ## Table of Contents?
 - [Installation?](#Installation)
@@ -32,8 +33,5 @@ flask --app app run
 ```
 
 ## Demonstration
-Main interface:
-![MainInterface](image.png)
-
 Video Demonstration:
 [Video Link](https://youtu.be/-JERhsHXrrc)
